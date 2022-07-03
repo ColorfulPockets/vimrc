@@ -1,0 +1,27 @@
+:nnoremap ; :
+:vnoremap ; :
+:nnoremap : ;
+:vnoremap : ;
+:inoremap jk <Esc>
+:inoremap JK <Esc>
+:inoremap kj <Esc>
+:inoremap KJ <Esc>
+:nnoremap J <c-d>
+:nnoremap K <c-u>
+
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k>   :tabnext<CR>
+inoremap <C-j> :tabprevious<CR>
+inoremap <C-k>   :tabnext<CR>
+nnoremap _T :tabnew 
+
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set smartindent
+
+set backspace=indent,eol,start
+set number
+
+syntax on
